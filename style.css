@@ -1,0 +1,262 @@
+* {
+    font-family: "Playwrite DE Grund", cursive;
+}
+
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* navigation bar code */
+.navbar {
+    display: flex;
+}
+
+.left {
+    display: flex;
+    padding: 0px;
+    margin: 10px;
+}
+
+.left img {
+    height: 30px;
+    cursor: pointer;
+}
+
+.left p {
+    color: white;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.mid {
+    display: flex;
+    height: 28px;
+    margin: auto;
+}
+
+.mid img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.mid input {
+    border: 2px solid gray;
+    border-radius: 15px;
+    height: 33px;
+    width: 431px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.mid img {
+    height: 38px;
+    margin-top: -3px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.right {
+    display: flex;
+    position: absolute;
+    right: 15px;
+}
+
+.right img {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    display: flex;
+    position: absolute;
+    right: 100px;
+    height: 34px;
+    padding: 10px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.prof {
+    display: flex;
+    position: absolute;
+    right: 35px;
+    height: 34px;
+    padding: 10px;
+    margin-top: 4px;
+}
+
+.prof img {
+    border: 2px solid black;
+    border-radius: 180px;
+    cursor: pointer;
+}
+
+#bx1 {
+    display: flex;
+}
+
+/* left side bar code */
+.countainer {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid white; */
+    width: 60px;
+}
+
+.countainer img {
+    display: flex;
+    flex-direction: column;
+    height: 43px;
+    width: 42px;
+    margin-top: 37px;
+    margin-left: 2px;
+    cursor: pointer;
+    -webkit-filter: invert(1);
+    filter: invert(1);
+}
+
+.section-left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+}
+
+/* filter suggestion code */
+.filter {
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    padding: 0px;
+    margin: 15px;
+    margin-bottom: -8px;
+    margin-top: 12px;
+    border: 2px solid gray;
+    border-radius: 12px;
+    background-color: gray;
+    font-size: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.box img {
+    height: 170px;
+    margin: 15px;
+}
+
+.box {
+    display: flex;
+    height: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.content p {
+    display: inline-block;
+    color: white;
+    margin-top: -2px;
+}
+
+#b1 {
+    /* border: 2px solid gray; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    margin: 15px;
+}
+
+#b1 img {
+    width: 270px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#b2 {
+    /* border: 2px solid gray; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    margin: 15px;
+}
+
+#b2 img {
+    width: 270px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#b3 {
+    /* border: 2px solid gray; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    margin: 15px;
+}
+
+#b3 img {
+    width: 270px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#b4 {
+    /* border: 2px solid gray; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    margin: 15px;
+}
+
+#b4 img {
+    width: 270px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#b5 {
+    /* border: 2px solid gray; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    margin: 15px;
+}
+
+#b5 img {
+    width: 270px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+#b6 {
+    /* border: 2px solid gray; */
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    margin: 15px;
+}
+
+#b6 img {
+    width: 270px;
+    border-radius: 12px;
+    cursor: pointer;
+}
